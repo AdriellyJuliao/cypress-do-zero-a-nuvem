@@ -1,28 +1,27 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+# Cypress do Zero a Nuvem 
 
-👋 Seja bem-vindo(a)!
+Projeto criado para o curso "Cypress, do Zero a Nuvem" da escola online Talking About Testing
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Pré-requisitos
 
-## O que você vai aprender?
+É necessario ter git, node.js e npm instalados para clonar e executar este projeto
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+> Eu usei as versões `2.42.1`, `20.13.1` e `10.8.1` do git, Node.js e npm respectivamente. Sugiro que você use as mesmas versões ou versões mais recentes.
 
-## Vamos começar?
+## Instalação
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Execute `npm install` (ou `npm i` para a versão curta) para instalar as dependências de desenvolvimento.
+
+## Testes 
+
+Neste projeto, você pode executar os testes em uma janela de visualização de desktop ou móvel.
+
+## Desktop
+Execute `npm test` (ou `npm t` para a versão curta) para executar o teste no modo sem cabeça em uma janela de visualização da área de trabalho. Ou, execute `npm run cy:open` para abrir o aplicativo Cypress em uma janela de visualização da área de trabalho.
+
+## Mobile
+Execute `npm run test:mobile` para executar o teste no modo sem cabeça em uma janela de visualização móvel. Ou, execute `npm run cy:open:mobile` para abrir o aplicativo Cypress em uma janela de visualização móvel.
 
 ___
 
-Este é um curso da **Escola Talking About Testing**.
+This project was created with 💚 by [Walmyr](https://walmyr.dev).
