@@ -1,27 +1,69 @@
-# Cypress do Zero a Nuvem 
+# Cypress do Zero à Nuvem
 
-Projeto criado para o curso "Cypress, do Zero a Nuvem" da escola online Talking About Testing
+Projeto desenvolvido durante o curso **"Cypress do Zero à Nuvem"**, ministrado pela escola online [Talking About Testing](https://talkingabouttesting.com).
 
 ## Pré-requisitos
 
-É necessario ter git, node.js e npm instalados para clonar e executar este projeto
+Antes de começar, você precisa ter as seguintes ferramentas instaladas na sua máquina:
 
-> Eu usei as versões `2.42.1`, `20.13.1` e `10.8.1` do git, Node.js e npm respectivamente. Sugiro que você use as mesmas versões ou versões mais recentes.
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+> Este projeto foi testado com as seguintes versões:
+> - Git: `2.42.1`
+> - Node.js: `20.13.1`
+> - npm: `10.8.1`
+
+Recomenda-se utilizar essas versões ou superiores.
 
 ## Instalação
 
-Execute `npm install` (ou `npm i` para a versão curta) para instalar as dependências de desenvolvimento.
+1. Clone o repositório:
+   ```bash
+   git clone <URL-do-repositório>
+   cd nome-do-repositório
+   ```
 
-## Testes 
+2. Instale as dependências:
+   ```bash
+   npm install
+   # ou
+   npm i
+   ```
 
-Neste projeto, você pode executar os testes em uma janela de visualização de desktop ou móvel.
+## Executando os Testes
 
-## Desktop
-Execute `npm test` (ou `npm t` para a versão curta) para executar o teste no modo sem cabeça em uma janela de visualização da área de trabalho. Ou, execute `npm run cy:open` para abrir o aplicativo Cypress em uma janela de visualização da área de trabalho.
+Este projeto permite a execução de testes em dois modos: **Desktop** e **Mobile**.
 
-## Mobile
-Execute `npm run test:mobile` para executar o teste no modo sem cabeça em uma janela de visualização móvel. Ou, execute `npm run cy:open:mobile` para abrir o aplicativo Cypress em uma janela de visualização móvel.
+###  Modo Desktop
 
-___
+- Executar testes em modo headless:
+  ```bash
+  npm test
+  # ou
+  npm t
+  ```
 
-This project was created with 💚 by [Walmyr](https://walmyr.dev).
+- Abrir o Cypress com interface gráfica:
+  ```bash
+  npm run cy:open
+  ```
+
+###  Modo Mobile
+
+- Executar testes em modo headless:
+  ```bash
+  npm run test:mobile
+  ```
+
+- Abrir o Cypress com interface gráfica:
+  ```bash
+  npm run cy:open:mobile
+  ```
+
+##  Autor
+
+Este projeto foi criado com 💚 por [Walmyr](https://walmyr.dev).
+
+
